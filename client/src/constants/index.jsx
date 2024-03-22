@@ -53,7 +53,32 @@ export const navItems = [
     },
   ];
   
+  
+  export const checklistItems = [
+    {
+      title: "Version Control Integration",
+      description:
+        "Effortlessly manage code changes and collaborate with team members using built-in version control tools.",
+    },
+    {
+      title: "Automated Code Review",
+      description:
+        "Ensure code quality and identify potential issues early with automated code review processes integrated into your workflow.",
+    },
+    {
+      title: "AI-Powered Code Suggestions",
+      description:
+        "Leverage AI algorithms to receive intelligent suggestions and optimizations for your code, reducing development time and effort.",
+    },
+    {
+      title: "Instant Deployment",
+      description:
+        "Deploy your VR applications with a single click, streamlining the process and enabling rapid iteration and sharing of work.",
+    },
+  ];
+  
 
+  
   
  
   

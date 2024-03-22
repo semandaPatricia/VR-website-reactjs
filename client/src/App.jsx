@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import FeatureSection from './components/FeatureSection'
-
+import Workflow from './components/Workflow'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -13,6 +13,7 @@ function App() {
       <Navbar/>
    <HeroSection/>
    <FeatureSection/>
+   <Workflow/>
     </>
  
   )
