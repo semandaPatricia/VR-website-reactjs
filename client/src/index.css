@@ -1,0 +1,25 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  color-scheme: dark;
+  font-family: "Poppins", sans-serif;
+
+}
+body{
+  min-height: 100vh;
+}
+
+
+
+
+
+
+
+
