@@ -4,14 +4,15 @@ import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
+import { FaXTwitter, FaFacebookF , FaTiktok  } from "react-icons/fa6";
 
 
 
 export const navItems = [
-    { label: "Features", href: "#" },
-    { label: "Workflow", href: "#" },
-    { label: "Pricing", href: "#" },
-    { label: "Testimonials", href: "#" },
+    { label: "Features", href: "feature" },
+    { label: "Workflow", href: "workflow" },
+    { label: "Pricing", href: "pricing" },
+    { label: "Testimonials", href: "testimonials" },
   ];
 
    export const features = [
@@ -111,5 +112,44 @@ export const navItems = [
   },
 ];
   
- 
+export const resourcesLinks = [
+  { href: "#", text: "Getting Started" },
+  { href: "#", text: "Documentation" },
+  { href: "#", text: "Tutorials" },
+  { href: "#", text: "API Reference" },
+  { href: "#", text: "Community Forums" },
+];
+
+export const platformLinks = [
+  { href: "#", text: "Features" },
+  { href: "#", text: "Supported Devices" },
+  { href: "#", text: "System Requirements" },
+  { href: "#", text: "Downloads" },
+  { href: "#", text: "Release Notes" },
+];
+
+export const communityLinks = [
+  { href: "#", text: "Events" },
+  { href: "#", text: "Meetups" },
+  { href: "#", text: "Conferences" },
+  { href: "#", text: "Hackathons" },
+  { href: "#", text: "Jobs" },
+];
   
+export const SocialLinks = [
+  {
+    icon: <FaXTwitter />,
+    text: "X",
+ 
+  },
+  {
+    icon: <FaFacebookF />,
+    text: "Facebook",
+ 
+  },
+  {
+    icon: <FaTiktok />,
+    text: "Ticktok",
+ 
+  },
+]

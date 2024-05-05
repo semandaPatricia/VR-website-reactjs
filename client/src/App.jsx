@@ -1,20 +1,37 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //import './App.css'
 import Navbar from './components/Navbar'
-import HeroSection from './components/HeroSection'
+import Home from './pages/Home/index'
+import Pricing from './pages/Pricing';
 import FeatureSection from './components/FeatureSection'
 import Workflow from './components/Workflow'
-import Pricing from './components/Pricing'
+import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <Navbar/>
-   <HeroSection/>
-   <FeatureSection/>
-   <Workflow/>
-   <Pricing/>
+    <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/feature" element={<FeatureSection />} />
+          <Route path="/workflow" element={<Workflow />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+
+        </Routes>
+        <FeatureSection/>
+        <Workflow/>
+        <Pricing/>
+  
+   
+   <Footer/>
+      </Router>
+      
+   
     </>
  
   )
