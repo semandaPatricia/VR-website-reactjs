@@ -8,6 +8,8 @@ import FeatureSection from './components/FeatureSection'
 import Workflow from './components/Workflow'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
+import Questions from './components/Questions';
+import Login from './pages/login/index';
 function App() {
 
 
@@ -17,6 +19,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/feature" element={<FeatureSection />} />
           <Route path="/workflow" element={<Workflow />} />
           <Route path="/pricing" element={<Pricing />} />
@@ -26,6 +29,7 @@ function App() {
         <FeatureSection/>
         <Workflow/>
         <Pricing/>
+        <Questions/>
   
    
    <Footer/>
